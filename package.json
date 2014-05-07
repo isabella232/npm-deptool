@@ -1,5 +1,6 @@
 {
   "name":"deptool",
+  "version": "0.0.1",
   "description": "Lists and resolves NPM dependencies",
   "author": {
     "name" :"Quinn Slack",
