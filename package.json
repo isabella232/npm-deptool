@@ -1,0 +1,16 @@
+{
+  "name":"deptool",
+  "description": "Lists and resolves NPM dependencies",
+  "author": {
+    "name" :"Quinn Slack",
+    "email": "sqs@sourcegraph.com",
+    "url": "https://sourcegraph.com.sqs"
+  },
+  "dependencies": {
+    "read-installed": "~2.0.3",
+    "mktemp": "~0.3.4"
+  },
+  "bin": {
+    "npm-deptool": "deptool.js"
+  }
+}
