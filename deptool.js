@@ -17,7 +17,7 @@ console.error('Temp dir:', cwd);
 
 console.error('running npm install...')
 child = execFile('npm', ['install', '--force', '--ignore-scripts', '--no-bin-links', '--no-optional', spec], {cwd: cwd}, function(err, stdout, stderr) {
-  console.log(stdout);
+  console.error(stdout);
   console.error(stderr);
 
   if (err) {
